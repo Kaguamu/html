@@ -1,0 +1,43 @@
+.pagination{
+    display: inline-block;
+    display:flex;
+    justify-content: center;
+    gap: 4em;
+    background-color: grey;
+    border:none;
+    border-radius: 8px;
+}
+.pagination a{
+    font-size: 3em;
+    text-decoration: none;
+    padding:4px 4px;
+    border-radius: 8px;
+    border:none;
+    color:black;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: bisque;
+    padding:4px 8px;
+    border-radius: 8px;
+    border:none;
+    font-size: 2em;
+}
+.dropdown .content{
+    display:none;
+    position:absolute;
+
+}
+.content{
+    color:brown
+}
+/*
+a:hover{
+    background-color: bisque;
+    box-shadow: 3px 4px 40px red;  
+}
+a:not(:hover){
+    background-color: greenyellow;
+}
