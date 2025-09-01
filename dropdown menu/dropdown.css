@@ -1,0 +1,28 @@
+.dropdown button{
+    background-color: bisque;
+    padding:1px 2px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.dropdown .content{
+    display:none;
+    box-shadow: 2px 2px 40px;
+    width:100px
+}
+
+.content a{
+    text-decoration: none;
+    display:block;
+    padding:3px 3px;
+}
+.dropdown:hover .content{
+    display:block
+}
+.dropdown
+.dropdown:hover button{
+    background-color: blue;
+}
+.dropdown a:hover{
+    background-color: grey;
+}
