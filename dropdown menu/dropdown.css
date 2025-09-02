@@ -8,7 +8,11 @@
 .dropdown .content{
     display:none;
     box-shadow: 2px 2px 40px;
-    width:100px
+    width:100px;
+    position: absolute;
+}
+.dropdown{
+    display: inline-block;
 }
 
 .content a{
@@ -19,10 +23,11 @@
 .dropdown:hover .content{
     display:block
 }
-.dropdown
 .dropdown:hover button{
     background-color: blue;
 }
 .dropdown a:hover{
     background-color: grey;
 }
+
+
